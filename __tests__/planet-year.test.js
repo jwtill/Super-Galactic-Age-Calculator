@@ -1,5 +1,6 @@
 /* eslint-disable no-undef */
 import PlanetYear from './../src/planet-year.js';
+// import yearsLeft from './../src/planet-year.js';
 
 describe('PlanetYear', () => {
 
@@ -44,7 +45,7 @@ describe('getJupiterAge', () => {
 describe('yearsLeft', () => {
 
   test('Should return persons age', () => {
-    // const planetYear = new PlanetYear(47);
-    expect(yearsLeft(47).toEqual(47);
+    const planetYear = new PlanetYear(47);
+    expect(planetYear.yearsLeft(47)).toEqual(47);
   });
 });
