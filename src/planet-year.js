@@ -25,6 +25,9 @@ export default class PlanetYear {
     else if (planet === "mars") {
       return ((77 - this.earthAge) * 1.88);
     }
+    else if (planet === "jupiter") {
+      return ((77 - this.earthAge) * 11.86);
+    }
     else {
       return (77 - this.earthAge);
     }
