@@ -15,8 +15,7 @@ export default class PlanetYear {
     return this.earthAge * 11.86;
   }
   yearsLeft() {
-    return this.earthAge;
-
+    return (77 - this.earthAge);
   }
   
 }
