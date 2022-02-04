@@ -1,18 +1,18 @@
 export default class PlanetYear {
-  constructor(age) {
-    this.age = age;
+  constructor(earthAge) {
+    this.earthAge = earthAge;
   }
-  getMercuryYear() {
-    return this.age * .24;
+  getMercuryAge() {
+    return this.earthAge * .24;
   }
-  getVenusYear() {
-    return this.age * .62;
+  getVenusAge() {
+    return this.earthAge * .62;
   }
-  getMarsYear() {
-    return this.age * 1.88;
+  getMarsAge() {
+    return this.earthAge * 1.88;
   }
-  getJupiterYear() {
-    return this.age * 11.86;
+  getJupiterAge() {
+    return this.earthAge * 11.86;
   }
 }
 
