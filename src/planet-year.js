@@ -14,8 +14,12 @@ export default class PlanetYear {
   getJupiterAge() {
     return this.earthAge * 11.86;
   }
-  yearsLeft() {
+  yearsLeft(planet) {
+    if (planet === "earth") {
     return (77 - this.earthAge);
+    } else if (planet === "mercury") {
+      return ((77 - this.earthAge) * .24);
+    }
   }
   
 }
