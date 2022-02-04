@@ -14,3 +14,4 @@ describe('getMercuryYear', () => {
     const planetYear = new PlanetYear(47);
     expect(planetYear.getMercuryYear(47)).toEqual(11.28);
   });
+});
