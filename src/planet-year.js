@@ -8,5 +8,8 @@ export default class PlanetYear {
   getVenusYear() {
     return this.age * .62;
   }
+  getMarsYear() {
+    return this.age * 1.88;
+  }
 }
 
