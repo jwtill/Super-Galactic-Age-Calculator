@@ -40,3 +40,11 @@ describe('getJupiterAge', () => {
     expect(planetYear.getJupiterAge(47)).toEqual(557.42);
   });
 });
+
+describe('yearsLeft', () => {
+
+  test('Should return persons age', () => {
+    // const planetYear = new PlanetYear(47);
+    expect(yearsLeft(47).toEqual(47);
+  });
+});
