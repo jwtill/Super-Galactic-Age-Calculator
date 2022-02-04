@@ -14,5 +14,14 @@ export default class PlanetYear {
   getJupiterAge() {
     return this.earthAge * 11.86;
   }
+  yearsLeft() {
+    return this.earthAge;
+
+  }
+  
 }
+
+// export const yearsLeft = (earthAge, planet) => {
+//   // return (77 - earthAge);
+// };
 
