@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import PlanetYear from './../src/planet-year.js';
 
 describe('PlanetYear', () => {
@@ -21,5 +22,13 @@ describe('getVenusYear', () => {
   test('Should return persons age in Venusian years', () => {
     const planetYear = new PlanetYear(47);
     expect(planetYear.getVenusYear(47)).toEqual(29.14);
+  });
+});
+
+describe('getVenusYear', () => {
+
+  test('Should return persons age in Martian years', () => {
+    const planetYear = new PlanetYear(47);
+    expect(planetYear.getMarsYear(47)).toEqual(88.36);
   });
 });
