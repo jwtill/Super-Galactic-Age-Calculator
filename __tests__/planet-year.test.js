@@ -44,8 +44,9 @@ describe('getJupiterAge', () => {
 
 describe('yearsLeft', () => {
 
-  test('Should return persons age', () => {
+  test('Should return 77 - earthAge', () => {
     const planetYear = new PlanetYear(47);
-    expect(planetYear.yearsLeft(47)).toEqual(47);
+    expect(planetYear.yearsLeft(47)).toEqual(30);
   });
+  
 });
