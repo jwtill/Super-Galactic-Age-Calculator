@@ -48,5 +48,12 @@ describe('yearsLeft', () => {
     const planetYear = new PlanetYear(47);
     expect(planetYear.yearsLeft("earth")).toEqual(30);
   });
+
+  test('Should return 77 - earthAge', () => {
+    const planetYear = new PlanetYear(47);
+    expect(planetYear.yearsLeft("mercury")).toEqual(47*.24);
+  });
+
+
   
 });
