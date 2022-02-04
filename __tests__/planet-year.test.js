@@ -43,16 +43,16 @@ describe('getJupiterAge', () => {
 });
 
 describe('yearsLeft', () => {
-
-  test('Should return 77 - earthAge', () => {
+  test('Should return 77 - earthAge * mercury year multiplier', () => {
     const planetYear = new PlanetYear(47);
-    expect(planetYear.yearsLeft("earth")).toEqual(30);
+    expect(planetYear.yearsLeft("mercury")).toEqual((77-47)*.24);
+  });
+  test('Should return 77 - earthAge if nothing is passed in', () => {
+    const planetYear = new PlanetYear(47);
+    expect(planetYear.yearsLeft()).toEqual(30);
   });
 
-  test('Should return 77 - earthAge', () => {
-    const planetYear = new PlanetYear(47);
-    expect(planetYear.yearsLeft("mercury")).toEqual(47*.24);
-  });
+  
 
 
   
