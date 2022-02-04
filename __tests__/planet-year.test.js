@@ -65,7 +65,7 @@ describe('yearsLeft', () => {
   });
   test('Should return the number of years over if user enters an age above life expentancy', () => {
     const planetYear = new PlanetYear(80);
-    expect(planetYear.yearsLeft(80)).toEqual(3);
+    expect(planetYear.yearsLeft()).toEqual(3);
   });
   
 

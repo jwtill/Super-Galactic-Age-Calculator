@@ -1,3 +1,5 @@
+import { ModuleFilenameHelpers } from "webpack";
+
 export default class PlanetYear {
   constructor(earthAge) {
     this.earthAge = earthAge;
@@ -14,24 +16,25 @@ export default class PlanetYear {
   getJupiterAge() {
     return this.earthAge * 11.86;
   }
-
   yearsLeft(planet) {
+    let solarAge;
     if (planet === "mercury") {
-      return ((77 - this.earthAge) * .24);
+      solarAge = ((77 - this.earthAge) * .24);
     }
     else if (planet === "venus") {
-      return ((77 - this.earthAge) * .62);
+      solarAge = ((77 - this.earthAge) * .62);
     }
     else if (planet === "mars") {
-      return ((77 - this.earthAge) * 1.88);
+      solarAge = ((77 - this.earthAge) * 1.88);
     }
     else if (planet === "jupiter") {
-      return ((77 - this.earthAge) * 11.86);
+      solarAge = ((77 - this.earthAge) * 11.86);
     }
     else {
-      return (77 - this.earthAge);
+      solarAge = (this.earthAge);
+    }
+    if this.earthAge > 77 {
+      return
     }
   }
-  
 }
-
