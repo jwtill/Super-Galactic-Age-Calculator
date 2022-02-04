@@ -32,3 +32,11 @@ describe('getVenusYear', () => {
     expect(planetYear.getMarsYear(47)).toEqual(88.36);
   });
 });
+
+describe('getJupiterYear', () => {
+
+  test('Should return persons age in Jovian years', () => {
+    const planetYear = new PlanetYear(47);
+    expect(planetYear.getJupiterYear(47)).toEqual(11.86);
+  });
+});
