@@ -15,3 +15,11 @@ describe('getMercuryYear', () => {
     expect(planetYear.getMercuryYear(47)).toEqual(11.28);
   });
 });
+
+describe('getVenusYear', () => {
+
+  test('Should return persons age in Venusian years', () => {
+    const planetYear = new PlanetYear(47);
+    expect(planetYear.getVenusYear(47)).toEqual(29.14);
+  });
+});
