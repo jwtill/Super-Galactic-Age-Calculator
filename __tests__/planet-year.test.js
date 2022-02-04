@@ -55,6 +55,10 @@ describe('yearsLeft', () => {
     const planetYear = new PlanetYear(47);
     expect(planetYear.yearsLeft("mars")).toEqual((77-47)*1.88);
   });
+  test('Should return 77 - earthAge * jupiter year multiplier', () => {
+    const planetYear = new PlanetYear(47);
+    expect(planetYear.yearsLeft("mars")).toEqual((77-47)*11.86);
+  });
 
 
   test('Should return 77 - earthAge if nothing is passed in', () => {
