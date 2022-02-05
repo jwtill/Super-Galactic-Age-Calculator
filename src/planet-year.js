@@ -1,6 +1,7 @@
 export default class PlanetYear {
   constructor(earthAge) {
     this.earthAge = earthAge;
+    this.planetAge = 0;
   }
   getMercuryAge() {
     return this.earthAge * .24;
