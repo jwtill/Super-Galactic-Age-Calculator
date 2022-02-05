@@ -4,16 +4,16 @@ export default class PlanetYear {
     this.planet = planet;
   }
   getMercuryAge() {
-    return this.earthAge * .24;
+    return Math.round(this.earthAge * .24);
   }
   getVenusAge() {
-    return this.earthAge * .62;
+    return Math.round(this.earthAge * .62);
   }
   getMarsAge() {
-    return this.earthAge * 1.88;
+    return Math.round(this.earthAge * 1.88);
   }
   getJupiterAge() {
-    return this.earthAge * 11.86;
+    return Math.round(this.earthAge * 11.86);
   }
   yearsLeft(planet) {
     let solarAge;
