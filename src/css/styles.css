@@ -1,3 +1,32 @@
 body {
   background-color: purple;
 }
+
+select {
+  width: 287px;
+}
+button {
+  width: 287px;
+}
+.container {
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.form-group {
+  padding: 15px;
+}
+#solar-age {
+  background-color: red;
+  border-radius: 5px;
+  padding: 15px;
+  width: 200px;
+  height: 200px;
+  float: right;
+  color: white;
+  position: fixed;
+  top: 40px;
+  right: 100px;
+}
+

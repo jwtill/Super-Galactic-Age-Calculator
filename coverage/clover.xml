@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1644019910462" clover="3.2.0">
-  <project timestamp="1644019910462" name="All files">
-    <metrics statements="17" coveredstatements="17" conditionals="10" coveredconditionals="10" methods="6" coveredmethods="6" elements="33" coveredelements="33" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1"/>
+<coverage generated="1644071809897" clover="3.2.0">
+  <project timestamp="1644071809898" name="All files">
+    <metrics statements="18" coveredstatements="18" conditionals="10" coveredconditionals="10" methods="6" coveredmethods="6" elements="34" coveredelements="34" complexity="0" loc="18" ncloc="18" packages="1" files="1" classes="1"/>
     <file name="planet-year.js" path="/Users/JoshTillinghast/Desktop/super-galactic-age-calculator/src/planet-year.js">
-      <metrics statements="17" coveredstatements="17" conditionals="10" coveredconditionals="10" methods="6" coveredmethods="6"/>
-      <line num="3" count="11" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="15" count="1" type="stmt"/>
-      <line num="19" count="6" type="cond" truecount="2" falsecount="0"/>
-      <line num="20" count="1" type="stmt"/>
-      <line num="23" count="5" type="cond" truecount="2" falsecount="0"/>
-      <line num="24" count="1" type="stmt"/>
-      <line num="26" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="27" count="1" type="stmt"/>
-      <line num="29" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="30" count="1" type="stmt"/>
-      <line num="32" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="33" count="1" type="stmt"/>
-      <line num="36" count="1" type="stmt"/>
-      <line num="38" count="5" type="stmt"/>
+      <metrics statements="18" coveredstatements="18" conditionals="10" coveredconditionals="10" methods="6" coveredmethods="6"/>
+      <line num="3" count="12" type="stmt"/>
+      <line num="4" count="12" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="20" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="24" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="27" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="30" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="31" count="1" type="stmt"/>
+      <line num="33" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+      <line num="39" count="5" type="stmt"/>
     </file>
   </project>
 </coverage>

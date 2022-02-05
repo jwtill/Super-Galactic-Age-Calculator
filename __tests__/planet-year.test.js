@@ -9,8 +9,8 @@ describe('PlanetYear', () => {
   });
 
   test('should construct PlanetYear object with planet', () => {
-    const planetYear = new PlanetYear(47, mercury);
-    expect(planetYear.planet).toEqual(mercury));
+    const planetYear = new PlanetYear(47, "mercury");
+    expect(planetYear.planet).toEqual("mercury");
   });
 });
 
