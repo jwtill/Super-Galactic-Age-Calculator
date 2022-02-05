@@ -3,9 +3,14 @@ import PlanetYear from './../src/planet-year.js';
 
 describe('PlanetYear', () => {
 
-  test('should construct PlanetYear object', () => {
+  test('should construct PlanetYear object with age', () => {
     const planetYear = new PlanetYear(47);
     expect(planetYear.earthAge).toEqual(47);
+  });
+
+  test('should construct PlanetYear object with planet', () => {
+    const planetYear = new PlanetYear(47, mercury);
+    expect(planetYear.planet).toEqual(mercury));
   });
 });
 
