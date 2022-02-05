@@ -1,5 +1,3 @@
-import { ModuleFilenameHelpers } from "webpack";
-
 export default class PlanetYear {
   constructor(earthAge) {
     this.earthAge = earthAge;
@@ -20,7 +18,6 @@ export default class PlanetYear {
     let solarAge;
     if (this.earthAge > 77) {
       return (Math.abs(this.earthAge - 77)); 
-      // console.log("Good job living", Math.abs(this.earthAge - 77));
     }
     else {
       if (planet === "mercury") {
@@ -42,7 +39,4 @@ export default class PlanetYear {
     }
   }
 }
-// const sloppy = new PlanetYear();
-// sloppy.earthAge = 90;
-// sloppy.yearsLeft();
-// console.log(sloppy.yearsLeft());
+

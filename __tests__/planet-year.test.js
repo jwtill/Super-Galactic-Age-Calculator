@@ -1,6 +1,5 @@
 /* eslint-disable no-undef */
 import PlanetYear from './../src/planet-year.js';
-// import yearsLeft from './../src/planet-year.js';
 
 describe('PlanetYear', () => {
 
@@ -67,10 +66,4 @@ describe('yearsLeft', () => {
     const planetYear = new PlanetYear(80);
     expect(planetYear.yearsLeft()).toEqual(3);
   });
-  
-
-  
-
-
-  
 });

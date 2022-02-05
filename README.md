@@ -1,7 +1,7 @@
 # Super Galactic Age Calculator
 
-#### Web application that returns users age on different planets that have different solar years.
-
+#### Calculates users' ages depending different planets' solar years
+ 
 #### By Josh Tillinghast
 
 ## Technologies Used
@@ -18,10 +18,12 @@
 * Babel
 
 ## Description
+Web application that returns users age on different planets that have different solar years than planet Earth. Also calculates years left of existence using average life expectancy on different planets
+
 
 ## Setup/Installation Instructions
 
-* Download all files and folders. Enter 'npm install' in the project's root file using the terminal, and then 'npm start'. Open dist/index.html in your browser.
+* Download all files and folders. Enter 'npm install' in the project's root file using the terminal, followed by 'npm run build' and finally 'run npm start' to have project open in your browser.
 
 ## Known Bugs
 
