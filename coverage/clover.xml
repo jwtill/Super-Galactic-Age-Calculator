@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1644071809897" clover="3.2.0">
-  <project timestamp="1644071809898" name="All files">
+<coverage generated="1644122308807" clover="3.2.0">
+  <project timestamp="1644122308807" name="All files">
     <metrics statements="18" coveredstatements="18" conditionals="10" coveredconditionals="10" methods="6" coveredmethods="6" elements="34" coveredelements="34" complexity="0" loc="18" ncloc="18" packages="1" files="1" classes="1"/>
     <file name="planet-year.js" path="/Users/JoshTillinghast/Desktop/super-galactic-age-calculator/src/planet-year.js">
       <metrics statements="18" coveredstatements="18" conditionals="10" coveredconditionals="10" methods="6" coveredmethods="6"/>

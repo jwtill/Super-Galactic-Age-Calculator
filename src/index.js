@@ -6,16 +6,27 @@ import PlanetYear from './planet-year';
 
 
 const getPlanetAge = (planetYear) => {
-  if (planetYear.planet === "mercury") {
+  if (planetYear.planet === "Mercury") {
     return planetYear.getMercuryAge();
-  } else if (planetYear.planet === "venus") {
+  } else if (planetYear.planet === "Venus") {
     return planetYear.getVenusAge();
-  } else if (planetYear.planet === "mars") {
+  } else if (planetYear.planet === "Mars") {
     return planetYear.getMarsAge();
-  } else if (planetYear.planet === "jupiter") {
+  } else if (planetYear.planet === "Jupiter") {
     return planetYear.getJupiterAge();
   } else {
     return ("error");
+  }
+};
+
+const ageChecker = (age) => {
+  if ((age < 1 ) || (isNaN(age))) {
+    $("#solar-age").html("Please enter and number above 0");
+    $("#age").val("");
+    return false;
+  }
+  else {
+    return true;
   }
 };
 
@@ -23,9 +34,12 @@ const getPlanetAge = (planetYear) => {
 $('form').submit(function(event){
   event.preventDefault();
   let age = $("#age").val();
-  let planet = $("#planet").val();
-  let planetYear = new PlanetYear(age, planet);
-  console.log(planetYear);
-  let solarAge = getPlanetAge(planetYear);
-  $("#solar-age").html(solarAge);
+  if (ageChecker(age) === true) {
+    let planet = $("#planet").val();
+    let planetYear = new PlanetYear(age, planet);
+    let solarAge = getPlanetAge(planetYear);
+    $("#solar-age").html(solarAge + " " + planetYear.planet + " years");
+  } else {
+    return false;
+  }
 });

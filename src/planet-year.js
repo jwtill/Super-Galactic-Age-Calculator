@@ -4,16 +4,16 @@ export default class PlanetYear {
     this.planet = planet;
   }
   getMercuryAge() {
-    return (Math.round((this.earthAge * .24) * 100))/100;
+    return (Math.round((this.earthAge/.24 ) * 100))/100;
   }
   getVenusAge() {
-    return (Math.round((this.earthAge * .62) * 100))/100;
+    return (Math.round((this.earthAge/.62) * 100))/100;
   }
   getMarsAge() {
-    return (Math.round((this.earthAge * 1.88) * 100))/100;
+    return (Math.round((this.earthAge/1.88) * 100))/100;
   }
   getJupiterAge() {
-    return (Math.round((this.earthAge * 11.86) * 100))/100;
+    return (Math.round((this.earthAge/11.86 ) * 100))/100;
   }
   yearsLeft(planet) {
     let solarAge;
@@ -40,15 +40,3 @@ export default class PlanetYear {
     }
   }
 }
-
-// getPlanetAge(planetMultiplier) {
-//   return this.earthAge * planetMultiplier;
-// }
-
-// class Planet {
-//   constructor() {
-//     this.name = name; //name from input
-//     this.solarYear = solarYear; //multiplier
-//   }
-// }
-

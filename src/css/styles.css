@@ -1,12 +1,14 @@
 body {
   background-color: purple;
 }
-
+input {
+  width: 27%;
+}
 select {
-  width: 287px;
+  width: 45%;
 }
 button {
-  width: 287px;
+  width: 45%;
 }
 .container {
   margin-top: 30px;
@@ -17,16 +19,20 @@ button {
 .form-group {
   padding: 15px;
 }
-#solar-age {
+#result {
   background-color: red;
   border-radius: 5px;
   padding: 15px;
-  width: 200px;
-  height: 200px;
+  width: 25%;
+  height: 150px;
   float: right;
   color: white;
   position: fixed;
-  top: 40px;
+  top: 60px;
   right: 100px;
+}
+#solar-age {
+  text-shadow: 2px 2px grey;
+  color: black; 
 }
 
