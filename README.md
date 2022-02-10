@@ -23,7 +23,7 @@ Web application that returns users age on different planets that have different 
 
 ## Setup/Installation Instructions
 
-* Download all files and folders. Enter 'npm install' in the project's root file using the terminal, followed by 'npm run build' and finally 'npm run start' to have project open in your browser.
+* Download all files and folders. Enter 'npm install' in the project's root file using the terminal, followed by 'npm run build' and finally 'npm run start' to have project open in your browser. To run tests, enter 'npm test' in your console in the root folder.
 
 ## Known Bugs
 
